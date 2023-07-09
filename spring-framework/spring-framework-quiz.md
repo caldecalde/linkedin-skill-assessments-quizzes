@@ -932,3 +932,15 @@ Explaination: [Primary indicates that a bean should be given preference when mul
 - [ ] Spring MVC
 - [x] Spring Bootstrap
 - [ ] Spring Cloud
+
+#### Q88. Consider the properties file application.properties. How would you load the property my.property?
+     my.property=Test
+
+- [ ]@GetProperty("${my.property}")
+     private String val;
+- [ ] @GetVal("my.property")
+     private String val;
+- [ ] @Prop("${my.property}")
+     private String val;
+- [x] @Value("${my.property}")
+     private String val;
